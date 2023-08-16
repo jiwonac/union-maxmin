@@ -1,3 +1,1 @@
-fn main() {
-    println!("Hello, world!");
-}
+use crate::union_maxmin;

@@ -2,14 +2,12 @@
 name = "union-maxmin"
 version = "0.1.0"
 edition = "2021"
-authors = "Jiwon Chang"
-description = "A library for MaxMin diversity maximization over unions of sets"
+authors = ["Jiwon Chang"]
+description = "A library for MaxMin diversity maximization over hierarchical unions of sets"
 repository = "https://github.com/jiwonac/union-maxmin"
 keywords = ["maxmin", "diversity", "union", "mathematical optimization"]
 
-[lib]
-
-[[bin]]
-name = "union-maxmin-solver"
-
 [dependencies]
+
+[package.metadata.docs.rs]
+rustdoc-args = [ "--html-in-header", "./src/katex.html" ]
